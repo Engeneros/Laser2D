@@ -1,0 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\d2\www\2013Proj\soft\draft\0040binaryRack=17.10.2016\sw\puC\puC40_0\qqRuz.uvproj
+Project File Date:  10/20/2016
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Sttup.s...
+creating preprocessor file for main.cpp...
+compiling main.cpp...
+linking...
+Program Size: Code=712 RO-data=16 RW-data=0 ZI-data=11368  
+FromELF: creating hex file...
+".\o\..\hex\qq.axf" - 0 Errors, 0 Warning(s).

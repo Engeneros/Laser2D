@@ -1,0 +1,47 @@
+#ifndef INTERFACE_PARTICULARITY_H
+#define INTERFACE_PARTICULARYTY_H
+
+namespace UserIfc
+{
+	enum MODULES 
+	{
+		NO_MOD = 0,
+		LD_A,
+		LD_B,
+		RADIATOR,
+		SIMMISTOR,
+		MODNUM
+	};
+	
+	enum PARAMETRS
+	{
+		NO_PARAM = 0,
+		TEMPERATURE,
+		CURRENT,
+		POWER,
+		ON_OFF,
+		PARAM_NUM
+	};
+
+	enum DESTINATORS
+	{
+		NO_WHERE = 0,
+		CONTROL,
+		MEASURE,
+		DEST_NUM
+	};
+		
+	enum INSTRUCTIONS
+	{
+		DO_NOTHING = 0,
+		HELLO,
+		SET,
+		GET,
+	};
+	
+	
+	
+	
+	
+}
+#endif

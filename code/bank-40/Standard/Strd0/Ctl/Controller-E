@@ -1,0 +1,23 @@
+#ifndef ABSTRACT_CONTROLLER_C
+#define ABSTRACT_CONTROLLER_C
+//E:\d2\www\2013Proj\soft\Abstract\AbstractController-C.h
+
+class AbstractCtl
+{
+public:
+	virtual bool	Router() = 0;
+	virtual  ~AbstractCtl()  {}
+};
+
+class AbstractController_C : public AbstractCtl
+{
+public:
+	virtual void SetLeftRef  (double refVal) = 0;
+	virtual void SetRightRef (double refVal) = 0;
+	virtual void Calibrate() = 0;
+	virtual void Set(double val) = 0;
+	virtual  double Get () = 0;
+	virtual bool Router() = 0;
+	virtual ~AbstractController_C() {}
+};
+#endif

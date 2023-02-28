@@ -1,0 +1,3 @@
+#ifndef LPC2478_I2C_REGS
+#define LPC2478_I2C_REGS
+#endif

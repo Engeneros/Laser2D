@@ -1,3 +1,7 @@
 *.bak
+*.crf
+*.d
+*.i
+*.o
 o/
 listing/

@@ -64,7 +64,7 @@ void DirectCurrCtl::Set(double val)
 
 	isStab = true;
 	if (val > 0.1)
-		currEn->Set();
+		currEn->Set();		
 }
 
 double DirectCurrCtl::Get ()
@@ -96,6 +96,8 @@ bool DirectCurrCtl::Router()
 	{
 		tgSlow = ( tgVal - (double) *effector > delta)? (tgSlow + step) : (((double) *effector - tgVal > delta)? (tgSlow - step) : tgVal);
 		*effector = (unsigned int) tgSlow;
+		if(cnv->GetValue(tgSlow) < 0.3)
+			currEn->Clear();			
 		ret =true;
 	}
 	else ret = false;

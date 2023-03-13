@@ -3,5 +3,8 @@
 *.d
 *.i
 *.o
+*.htm
+*.map
+*.lnp
 o/
 listing/
